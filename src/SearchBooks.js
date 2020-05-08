@@ -15,7 +15,8 @@ class SearchBooks extends React.Component {
         },function(){ 
       		if(query!=="")
               BooksAPI.search(query,50).then((resultBooks)=>{
-                console.log(resultBooks)
+                this.
+                //console.log(resultBooks)
                 this.setState((prevState)=>({
                   books:resultBooks
                 }))
